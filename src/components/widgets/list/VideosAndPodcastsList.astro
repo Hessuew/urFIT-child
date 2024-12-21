@@ -12,14 +12,14 @@ import CustomVimeo from '~/components/common/CustomVimeo.astro';
     {
       sortedYears.map((year) => (
         <div class="mb-16 sm:mb-24 item-year-card">
-          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8 sm:mb-12 text-center intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:translate-y-8 motion-safe:md:intersect:animate-fade motion-safe:md:intersect:animate-slide-up">
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8 sm:mb-12 text-center intersect-once intersect-tenth sm:intersect-quarter motion-safe:md:opacity-0 motion-safe:md:translate-y-8 motion-safe:md:intersect:animate-fade motion-safe:md:intersect:animate-slide-up">
             {year}
           </h2>
           {/* <div class="grid gap-8 sm:gap-12 md:grid-cols-2 lg:grid-cols-3"> */}
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             {mediaItemsByYear[year].map((item) => (
               <div
-                class="item-card bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-md dark:shadow-gray-900/20 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:translate-y-8 motion-safe:md:intersect:animate-fade motion-safe:md:intersect:animate-slide-up "
+                class="item-card bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-md dark:shadow-gray-900/20 intersect-once intersect-tenth sm:intersect-quarter motion-safe:md:opacity-0 motion-safe:md:translate-y-8 motion-safe:md:intersect:animate-fade motion-safe:md:intersect:animate-slide-up "
                 data-type={item.platform}
               >
                 <div class="text-sm font-medium text-primary-600 dark:text-primary-400 mb-3">

@@ -23,7 +23,7 @@ const { columns = 2, classes = {} } = Astro.props;
     {
       sortedYears.map((year) => (
         <div class="mb-16 sm:mb-24 item-year-card">
-          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8 sm:mb-12 text-center intersect-once intersect-quarter intercept-no-queue motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
+          <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8 sm:mb-12 text-center intersect-once intersect-tenth sm:intersect-quarter intercept-no-queue motion-safe:opacity-0 motion-safe:intersect:animate-fade">
             {year}
           </h2>
 
@@ -48,7 +48,7 @@ const { columns = 2, classes = {} } = Astro.props;
                   href={release.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="item-card block no-underline hover:no-underline group translate-y-6 md:translate-y-12 duration-[1500ms] ease-out focus:outline-none focus:ring-2 focus:ring-primary rounded-lg intersect-once intersect-quarter intercept-no-queue motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
+                  class="item-card block no-underline hover:no-underline group translate-y-6 md:translate-y-12 duration-[1500ms] ease-out focus:outline-none focus:ring-2 focus:ring-primary rounded-lg intersect-once intersect-tenth sm:intersect-quarter intercept-no-queue motion-safe:opacity-0 motion-safe:intersect:animate-fade"
                   data-type={release.type}
                   data-category={release.category || ''}
                   aria-label={`Visit ${release.title} website`}
