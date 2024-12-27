@@ -1,0 +1,7 @@
+name = "subscribe"
+main = "src/index.ts"
+compatibility_date = "2023-12-27"
+
+[vars]
+RESEND_API_KEY = "re_Dugcjmmp_6vWfksXMCaQVyt1CJmXAHSQA" 
+RESEND_AUDIENCE_ID = "22faecc9-4971-4c9e-a726-22213389263f"
